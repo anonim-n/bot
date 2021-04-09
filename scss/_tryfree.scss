@@ -1,0 +1,44 @@
+.tryfree{
+    width: 100%;
+    .cont{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        h4{
+            font-size: 20px;
+        }
+        a{
+            color: black;
+            text-decoration:none;
+            font-size: 17px;
+            align-items: center;
+        }
+        .on{
+            display: flex;
+            align-items: center;
+            width: 90%;
+            justify-content: space-between;
+        }
+        .under{
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+        }
+    }
+    .try{
+        text-align: center;
+        button{
+            border: none;
+            border-radius: 10px;
+            button:hover{
+                background: gray;
+            }
+        }
+    
+    }
+}
+}
